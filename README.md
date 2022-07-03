@@ -1,6 +1,6 @@
 # The Football-Standings App⚽
 
-This is a simple web application created using react,html and css which displays the league standings from the major football leagues around the world using a public api.
+This is a simple web application created using react,JavaScript and css which displays the league standings from the major football leagues around the world using a public api.
 
 
 ## Installation
