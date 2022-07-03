@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.main-container {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: linear-gradient( 270deg, #ddd6f3, #faaca8 );
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tab-leagues {
+  /* margin-right: 10px; */
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  border-right: 5px solid #cccccc;
+}
+.tab-leagues:hover{
+    cursor: pointer;
+}
+.tab-standings:hover{
+    cursor: pointer;
+}
+
+.tab-standings {
+  width: 300px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.league-container {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.league-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.league-div > img {
+  width: 250px;
+}
+
+.league-div:hover {
+  transform: scale(1.1);
+}
+
+select {
+  padding: 10px;
+  font-size: 19px;
+}
+.ranking-table{
+    width:100%;
+}
+.standings-container{
+    width: 100%;
+}
+.ranking-table{
+    font-family: sans-serif;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-image: linear-gradient( 270deg, #4ca1af , #c4e0e5 );
+    padding: 2px;
+    text-align: left;
+}
+.ranking-table tr{
+    border: solid;
+    border-color: #D0D0D0;
+    border-radius: 20px;
+    border-width: 1px,0;
+    margin: auto;
+    transition: width 0.5s;
+}
+.ranking-table tr:hover{
+    opacity: 0.8;
+    background-color: antiquewhite;
+}
+.logo-small {
+  width: 25px;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2px;
+}
+.select-fields{
+    padding: 5px;
+}
